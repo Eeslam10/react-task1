@@ -12,7 +12,7 @@ const Task = () => {
             <h1>The Details</h1>
             {details.map(person => (
                 <div className="info" key={details.id}>
-                    <p>{person.name}: {person.phoneNo},  {person.email}</p>
+                    <p> <h3>{person.name}:</h3> {person.phoneNo},  {person.email}</p>
                     {/* <p>{person.phoneNo}</p> */}
                     {/* <p>{person.email}</p> */}
                 </div>
